@@ -1,0 +1,35 @@
+﻿# Dependencias
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+# Builds
+dist/
+build/
+.next/
+# Configuracoes privadas
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+dashboard_token
+credentials.json
+# Dados locais e tokens
+.agent-bridge/
+.arcanum/
+.agents/
+*.sqlite3*
+*.db
+*.db-*
+*.log
+# Testes e arquivos temporarios
+.pytest_cache/
+.hypothesis/
+.playwright-mcp/
+extracted_tools/
+# Arquivos compactados grandes
+*.zip
